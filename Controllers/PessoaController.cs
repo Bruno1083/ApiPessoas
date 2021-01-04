@@ -1,4 +1,5 @@
 using ApiPessoas.Data.Collections;
+using ApiPessoas.Models;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 
@@ -18,7 +19,7 @@ namespace ApiPessoas.Controllers
         [HttpPost]
         public ActionResult SalvarInfectado([FromBody]PessoaDto dto)
         {
-            var pessoa = new Pessoa(dto.DataNascimento, dto.Sexo, dto.Latitude, dto.Longitude);
+            var pessoa = new Pessoa(dto.Nome, dto.DataNascimento, dto.Cpf ,dto.Sexo);
             //Adicionar no banco
             _infectadosCollection.InsertOne(pessoa);
             return StatusCode(201, "Infectado adicionado com sucesso");
