@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\bootcamp\\ApiPessoa\\ApiPessoa.csproj": {}
+    "C:\\bootcamp\\ApiPessoas\\ApiPessoa.csproj": {}
   },
   "projects": {
-    "C:\\bootcamp\\ApiPessoa\\ApiPessoa.csproj": {
+    "C:\\bootcamp\\ApiPessoas\\ApiPessoa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\bootcamp\\ApiPessoa\\ApiPessoa.csproj",
+        "projectUniqueName": "C:\\bootcamp\\ApiPessoas\\ApiPessoa.csproj",
         "projectName": "ApiPessoa",
-        "projectPath": "C:\\bootcamp\\ApiPessoa\\ApiPessoa.csproj",
+        "projectPath": "C:\\bootcamp\\ApiPessoas\\ApiPessoa.csproj",
         "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\bootcamp\\ApiPessoa\\obj\\",
+        "outputPath": "C:\\bootcamp\\ApiPessoas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,6 +53,10 @@
               "noWarn": [
                 "NU1605"
               ]
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.5, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
