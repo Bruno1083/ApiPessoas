@@ -17,8 +17,8 @@ namespace ApiPessoa
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<Data.MongoDB>();
-            services.AddControllers();
+            services.AddSingleton<ApiPessoas.Data.MongoDB>();
+            services.AddControllers(); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
